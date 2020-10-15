@@ -21,7 +21,8 @@ $(document).ready(function () {
         "order": [[3, "desc"]],
         "language": {
             "url": "http://cdn.datatables.net/plug-ins/1.10.20/i18n/Spanish.json"
-        }
+        },
+        responsive: true
     });
 });
 $('#formulario').on('submit', function (e) {
