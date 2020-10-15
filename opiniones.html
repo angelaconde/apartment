@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <!-- DataTables-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/v/bs4/dt-1.10.20/b-1.6.1/b-html5-1.6.1/datatables.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/apartamentos.css">
+    <title>Apartamento Angela</title>
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <div class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" class="img-responsive"
+                    alt="Apartamento Angela"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link icon ion-home" href="index.html"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="apartamento.html">APARTAMENTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zona.html">ZONA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="actividades.html">ACTIVIDADES</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="opiniones.html">OPINIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reservar.html" type="button" class="btn btn-primary">RESERVAR</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- LIBRO DE VISITAS-->
+    <!-- FORMULARIO -->
+    <div class="container-fluid p-4">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <form name="formulario" id="formulario">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="nombre" placeholder="Nombre" required>
+                        <input type="email" class="form-control" name="email" placeholder="Email" required>
+                        <textarea class="form-control" name="mensaje" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Enviar opinión">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- TABLA DE COMENTARIOS -->
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover table-striped" id="tabla">
+                        <thead class="bg-primary text-white">
+                            <tr>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Comentario</th>
+                                <th scope="col">Fecha</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PIE -->
+    <div class="container-fluid px-0">
+        <div class="footer-basic bg-light">
+            <footer>
+                <div class="social">
+                    <a href="#"><i class="icon ion-social-instagram"></i></a>
+                    <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                    <a href="#"><i class="icon ion-social-twitter"></i></a>
+                    <a href="#"><i class="icon ion-social-facebook"></i></a>
+                </div>
+                <p class="copyright">Apartamentos Angela © 2020</p>
+            </footer>
+        </div>
+    </div>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <!-- POPPER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- DATATABLES -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="http://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.datatables.net/v/bs4/dt-1.10.20/b-1.6.1/b-html5-1.6.1/datatables.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <!-- MY JS -->
+    <script src="assets/js/guestbook.js"></script>
+</body>
+
+</html>

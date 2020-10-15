@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/apartamentos.css">
+    <title>Apartamento Angela</title>
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <div class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" class="img-responsive"
+                    alt="Apartamento Angela"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link icon ion-home" href="index.html"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="apartamento.html">APARTAMENTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zona.html">ZONA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="actividades.html">ACTIVIDADES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="opiniones.html">OPINIONES</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reservar.html" type="button" class="btn btn-primary">RESERVAR</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- CONTACTO -->
+    <div id="contacto">
+        <div class="container">
+            <form id="formulario-contacto">
+                <div class="form-row" id="contacto-fila">
+                    <div class="col-md-6" id="contacto-columna">
+                        <fieldset></fieldset>
+                        <legend><i class="fa fa-info"></i>&nbsp;Información de contacto:</legend>
+                        <p></p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td><i class="fa fa-building"></i></td>
+                                        <td>Calle de los Azores, 2<br>21409 Playa de Isla Canela <br>Huelva<br></td>
+                                    </tr>
+                                    <tr></tr>
+                                    <tr>
+                                        <td><i class="fa fa-phone"></i></td>
+                                        <td>678123456</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-envelope"></i></td>
+                                        <td>info@apartamentoangela.com</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- EASTER EGG -->
+                        <img src="assets/img/parrot.gif" height="50px" id="lorito">
+                    </div>
+                    <div class="col-12 col-md-6" id="message">
+                        <fieldset>
+                            <legend><i class="fa fa-envelope"></i>&nbsp;Contacta con nosotros:</legend>
+                        </fieldset>
+                        <div class="form-group has-feedback"><input class="form-control" type="text" id="from_name"
+                                tabindex="-1" name="from_name" required placeholder="Nombre"></div>
+                        <div class="form-group has-feedback"><input class="form-control" type="email" id="from_email"
+                                name="from_email" required placeholder="Email"></div>
+                        <div class="form-group"><textarea class="form-control" id="comments" name="Comments"
+                                placeholder="Mensaje" rows="5" required></textarea></div>
+                        <div class="form-group">
+                            <div class="form-btn">
+                                <button class="btn btn-primary btn-block submit-btn">Enviar&nbsp;<i
+                                        class="fa fa-chevron-circle-right"></i></button></div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- MODAL CONTACTO -->
+    <div class="modal" tabindex="-1" role="dialog" id="modal-contacto">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mensaje enviado.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="texto-reserva">
+                    <p>Gracias por contactar con nosotros. Te responderemos en un plazo máximo de 24 horas.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BOTON DE RESERVAR -->
+    <div class="container-fluid p-5">
+        <div class="row">
+            <div class="col text-center">
+                <a href="reservar.html" class="btn btn-primary btn-lg btn-huge">RESERVAR</a>
+            </div>
+        </div>
+    </div>
+    <!-- PIE -->
+    <div class="container-fluid px-0">
+        <div class="footer-basic bg-light">
+            <footer>
+                <div class="social">
+                    <a href="#"><i class="icon ion-social-instagram"></i></a>
+                    <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                    <a href="#"><i class="icon ion-social-twitter"></i></a>
+                    <a href="#"><i class="icon ion-social-facebook"></i></a>
+                </div>
+                <p class="copyright">Apartamentos Angela © 2020</p>
+            </footer>
+        </div>
+    </div>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <!-- POPPER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- CONTACTO -->
+    <script src="assets/js/formularios.js"></script>
+    <script src="assets/js/plugin.js"></script>
+</body>
+
+</html>

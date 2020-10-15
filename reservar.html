@@ -1,0 +1,254 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/apartamentos.css">
+    <link rel="stylesheet" href="assets/css/reservas.css">
+    <!-- CALENDARIO -->
+    <link rel="stylesheet" type="text/css" href="assets/css/js-year-calendar.min.css" />
+    <title>Apartamento Angela</title>
+</head>
+<body>
+    <!-- CABECERA -->
+    <div class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" class="img-responsive"
+                    alt="Apartamento Angela"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link icon ion-home" href="index.html"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="apartamento.html">APARTAMENTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zona.html">ZONA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="actividades.html">ACTIVIDADES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="opiniones.html">OPINIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="reservar.html" type="button" class="btn btn-primary">RESERVAR</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- FORMULARIO DE RESERVA -->
+    <div id="booking" class="section">
+        <div class="section-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-md-push-5">
+                        <div class="booking-cta">
+                            <h1>Reserva online</h1>
+                            <p>Recuerda que también puedes reservar en el teléfono 678123456.</p>
+                            <!-- BOTON DE MOSTRAR PRECIOS -->
+                            <p class="text-center">
+                                <button class="btn btn-outline-light btn-lg" type="button" data-toggle="collapse"
+                                    data-target="#precios" aria-expanded="false" aria-controls="precios">
+                                    Mostrar precios
+                                </button>
+                            </p>
+                            <!-- BOTON DE MOSTRAR CALENDARIO -->
+                            <p class="text-center">
+                                <button class="btn btn-outline-light btn-lg" type="button" data-toggle="collapse"
+                                    data-target="#calendario" aria-expanded="false" aria-controls="calendario">
+                                    Mostrar calendario
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-pull-7">
+                        <div class="booking-form">
+                            <form id="formulario-reserva">
+                                <div class="form-group">
+                                    <span class="form-label">Nombre y Apellidos</span>
+                                    <input class="form-control" type="text" id="nombre" required>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <span class="form-label">Entrada</span>
+                                            <input class="form-control" type="date" id="entrada" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <span class="form-label">Salida</span>
+                                            <input class="form-control" type="date" id="salida" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <span class="form-label">Adultos</span>
+                                            <select class="form-control">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                            <span class="select-arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <span class="form-label">Niños</span>
+                                            <select class="form-control">
+                                                <option>0</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                            </select>
+                                            <span class="select-arrow"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <span class="form-label">Mascotas</span>
+                                            <select class="form-control">
+                                                <option>0</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                            </select>
+                                            <span class="select-arrow"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-btn">
+                                    <button class="submit-btn btn-block">Confirmar reserva</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL RESERVA -->
+    <div class="modal" tabindex="-1" role="dialog" id="modal-reserva">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Reserva confirmada.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="texto-reserva">
+                    <p>Muchas gracias por tu reserva. Te esperamos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MOSTRAR PRECIOS -->
+    <div class="collapse" id="precios">
+        <div class="card card-body">
+            <!-- PRECIOS -->
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-2">
+                        <table class="table table-hover table-sm">
+				<thead>
+					<th class="bg-primary text-white">Color</th>
+					<th class="bg-primary text-white">Precio</th>
+				</thead>
+				<tbody>
+					<tr class="amarillo">
+						<td>Amarillo</td>
+						<td>240€ por noche</td>
+					</tr>
+					<tr class="coral">
+						<td>Coral</td>
+						<td>200€ por noche</td>
+					</tr>
+					<tr class="rosa">
+						<td>Rosa</td>
+						<td>150€ por noche</td>
+					</tr>
+					<tr class="verde">
+						<td>Verde</td>
+						<td>120€ por noche</td>
+					</tr>
+					<tr class="gris">
+						<td>Gris</td>
+						<td>100€ por noche</td>
+					</tr>
+				</tbody>
+			</table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MOSTRAR CALENDARIO -->
+    <div class="collapse" id="calendario">
+        <div class="card card-body">
+            <!-- CALENDARIO -->
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div id="calendar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PIE -->
+    <div class="container-fluid px-0">
+        <div class="footer-basic bg-light">
+            <footer>
+                <div class="social">
+                    <a href="#"><i class="icon ion-social-instagram"></i></a>
+                    <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                    <a href="#"><i class="icon ion-social-twitter"></i></a>
+                    <a href="#"><i class="icon ion-social-facebook"></i></a>
+                </div>
+                <p class="copyright">Apartamentos Angela © 2020</p>
+            </footer>
+        </div>
+    </div>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <!-- POPPER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- CALENDARIO-->
+    <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>
+    <script src="https://unpkg.com/js-year-calendar@latest/locales/js-year-calendar.es.js"></script>
+    <script src="assets/js/calendario.js"></script>
+    <!-- RESERVAS -->
+    <script src="assets/js/formularios.js"></script>
+</body>
+</html>
