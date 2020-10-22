@@ -1,21 +1,34 @@
 # Vacation Apartment
 ## Introduction
-Simple vacation apartment booking website for an asigment.
+Simple vacation apartment booking website for an asigment.  
+
 ![Home](https://github.com/angelaconde/apartment/blob/master/preview001.png)
 
 ## Features
-* Fully responsive
-![Full Screen](https://github.com/angelaconde/apartment/blob/master/preview002.png)
-![Smartphone](https://github.com/angelaconde/apartment/blob/master/preview003.png)
-* Map and Weather widgets
-![Map and weather](https://github.com/angelaconde/apartment/blob/master/preview004.png)
-* Music player
-![Music Player](https://github.com/angelaconde/apartment/blob/master/preview005.png)
-* Contact form that sends an email
-![Contact form](https://github.com/angelaconde/apartment/blob/master/preview006.png)
-* Guestbook
-![Guestbook](https://github.com/angelaconde/apartment/blob/master/preview007.png)
-* NOT OPERATIONAL booking system (as it's too complex for a frontend focused subject asignment)
+* Fully responsive  
+
+![Full Screen](https://github.com/angelaconde/apartment/blob/master/preview002.png)  
+
+![Smartphone](https://github.com/angelaconde/apartment/blob/master/preview003.png)  
+
+* Map and Weather widgets  
+
+![Map and weather](https://github.com/angelaconde/apartment/blob/master/preview004.png)  
+
+* Music player  
+
+![Music Player](https://github.com/angelaconde/apartment/blob/master/preview005.png)  
+
+* Contact form that sends an email  
+
+![Contact form](https://github.com/angelaconde/apartment/blob/master/preview006.png)  
+
+* Guestbook  
+
+![Guestbook](https://github.com/angelaconde/apartment/blob/master/preview007.png)  
+
+* NOT OPERATIONAL booking system (as it's too complex for a frontend focused subject asignment)  
+
 ![Guestbook](https://github.com/angelaconde/apartment/blob/master/preview008.png)
 
 ## What did I use to write this?
