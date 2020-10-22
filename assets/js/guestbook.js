@@ -28,6 +28,8 @@ $(document).ready(function () {
 $('#formulario').on('submit', function (e) {
     e.preventDefault();
     insertar();
+    $('input').val('');
+    $('textarea').val('');
 });
 function insertar() {
     const formData = new FormData(document.getElementById('formulario'));
